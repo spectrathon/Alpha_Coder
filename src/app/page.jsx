@@ -26,9 +26,9 @@ export default function Home() {
   return (
     <>
    
-      {/* {
+      {
         isAuthenticated ? <SignUpForm /> : <LoginForm isAuthenticated={isAuthenticated} />
-      } */}
+      }
       
       <Homepage/>
     </>
