@@ -53,10 +53,18 @@ const Homepage = () => {
     <>
       <Title level={2} className="heading">Stocks stats</Title>
       <Container maxW={"container.xl"}>
-        
+        <div className="flex gap-2">
           <HStack spacing={4}>
-            <Statistic title="Total stocks" value={141598} />
+            <Statistic title="Total stocks" value={816} />
           </HStack>
+          <HStack spacing={4}>
+            <Statistic title="Sensex" value={73876.65} />
+          </HStack>
+          <HStack spacing={4}>
+            <Statistic title="Nifty 50" value={22434.5} />
+          </HStack>
+        </div>
+        
       </Container>
 
       <div className="home-heading-container">
